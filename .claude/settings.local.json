@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vitest:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm ls:*)",
+      "Bash(npm install:*)",
+      "Bash(npm show:*)",
+      "Bash(node -e \"const v=require\\(''''fs''''\\).readFileSync\\(''''/dev/stdin'''',''''utf8''''\\); const versions=JSON.parse\\(v\\); const v5=versions.filter\\(x=>x.startsWith\\(''''5.''''\\)\\); console.log\\(''''v5 versions:'''', v5.slice\\(-10\\)\\); const v6=versions.filter\\(x=>x.startsWith\\(''''6.''''\\)\\); console.log\\(''''v6 versions:'''', v6.slice\\(-5\\)\\);\")",
+      "Bash(npm run:*)",
+      "Bash(grep:*)",
+      "Bash(npm list:*)",
+      "Bash(node:*)",
+      "Bash(npm info:*)",
+      "Bash(npx tsc:*)",
+      "Bash(find node_modules -path \"*/ai-sdk/provider-utils/package.json\" -exec cat {})",
+      "Bash(xargs ls:*)",
+      "mcp__playwright",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_console_messages"
+    ]
+  }
+}
